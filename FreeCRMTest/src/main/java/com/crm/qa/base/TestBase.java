@@ -41,11 +41,6 @@ public class TestBase {
 	
 	public static void initialization(){
 		String browserName = prop.getProperty("browser");
-		System.out.println("New line added in Test Base class");
-		System.out.println("New line added in Test Base class");
-		System.out.println("New line added in Test Base class");
-		System.out.println("New line added in Test Base class");
-		System.out.println("New line added in Test Base class");
 		
 		if(browserName.equals("chrome")){
 			System.setProperty("webdriver.chrome.driver", "D:\\Chrome Driver latest\\chromedriver_win32\\chromedriver.exe");	
