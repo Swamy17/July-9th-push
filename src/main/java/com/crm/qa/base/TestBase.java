@@ -42,7 +42,7 @@ public class TestBase {
 	public static void initialization()
 	{
 		String browserName = prop.getProperty("browser");
-		System.out.println("Adding changes from eclipse");
+		System.out.println("Adding comments from GITHUB");
 		
 		
 		
